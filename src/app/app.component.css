@@ -1,0 +1,13 @@
+#map {
+    width: 100%;
+    height: 600px;
+}
+
+.btn {
+    margin: 10px;
+    margin-left: 10px;
+}
+
+.btn-group {
+    padding: 10px;
+}
