@@ -12,7 +12,7 @@ export class OrdersService {
   constructor(private http: Http) { }
 
   getOrders(): Observable<any> {
-    return this.http.get('../assets/data/orders.json')
+    return this.http.get('/DeliveryRouting/assets/data/orders.json')
       .map((res: any) => {
         return res.json();
       })
